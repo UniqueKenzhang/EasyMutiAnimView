@@ -2,7 +2,7 @@
 用于展示多并发，多钟变换符合动画的view。使用简单，编写更易阅读的代码。
 
 ## 效果
-
+![](https://github.com/UniqueKenzhang/EasyMutiAnimView/blob/master/raw/easy_anim.gif)
 
 ## 使用
 
@@ -17,8 +17,9 @@ public class PathKeyPoint {
     public static final int LINEAR = 0;//直线轨道
     public static final int QUADRATIC = 1;//贝塞尔曲线轨道
     public static final int ARC = 2;//未实现，暂时同直线轨道
-
-    public float x;
+    
+    //相对于父控件的x，y
+    public float x;
     public float y;
 
     public int duration;//上一个点到该点所经历的时长
