@@ -19,6 +19,11 @@ public class AnimInfo {
         imgResource.add(String.valueOf(id));
     }
 
+    public void addImageUrl(String url) {
+        imgResource.add(url);
+    }
+
+
 //    public void setDurationPerFlame(int duration) {
 //        if (imgResource.size() > 0) {
 //            spaceFlame = duration / (1000 / EasyMutiAnimView.FPS);

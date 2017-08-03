@@ -50,6 +50,7 @@ public class MainActivity extends AppCompatActivity {
 
         AnimInfo info = new AnimInfo();
         info.addImageResource(R.mipmap.star);
+//        info.addImageUrl(url);
         info.count = Integer.MAX_VALUE;
         AnimEntity animInfo = AnimInfoFactory.getAnimInfo(points, info);
         mEasyMutiAnimView.addAnimToQueen(animInfo, 300);
